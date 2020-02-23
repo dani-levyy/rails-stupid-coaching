@@ -1,0 +1,42 @@
+// Place all the styles related to the Questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+$whiteish: #F7F7F7;
+$white: white;
+
+html {
+  background: $whiteish; // Using this variable
+  font-family: sans-serif;
+  width: 300px;
+  height: 300px;
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+div.your-question {
+  background: white;
+}
+
+div.coach {
+  background: white;
+  background-color: #FFFDE1;
+}
+
+div.form {
+  // padding-bottom: 5px;
+  // padding-left: 5px;
+}
+
+body {
+  width: 300px;
+  padding: 20px;
+  height:300px;
+}
+
+// // .form-inline {
+// //   justify-content: center;
+// // }
